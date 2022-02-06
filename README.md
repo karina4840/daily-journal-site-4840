@@ -22,10 +22,16 @@
 - The app styled with **EJS** layout components and **CSS**, and deployed with **Heroku**.
                                                     
 ### Screenshots
-
-<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-home-screen.png?raw=true" width=400> <img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-compose-screen.png?raw=true" width=400> 
-<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-compose-full-screen.png?raw=true" width=400> <img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-composed-screen.png?raw=true" width=400>  
-<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-page-screen.png?raw=true" width=400>  
+**Starting page <br>
+<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-home-screen.png?raw=true" width=400> <br>
+Compose page <br> 
+<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-compose-screen.png?raw=true" width=400> <br>
+Composed post <br> 
+<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-compose-full-screen.png?raw=true" width=400> <br>
+Home page with new posts <br>
+<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-composed-screen.png?raw=true" width=400>  <br>
+Example of a new composed page** <br>
+<img src="https://github.com/karina4840/daily-journal-site-4840/blob/main/screens/journal-page-screen.png?raw=true" width=400>  <br>
 ***
 
 <div align="center">
