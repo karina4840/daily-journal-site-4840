@@ -1,13 +1,14 @@
 <%- include('./partials/header'); -%>
 
 <h1>Home</h1>
-<p class="sub-text"> <%= homeContent %> </p>
+<p class="sub-text"> <%= startingContent %> </p>
 
-<% postContent.forEach(post => { %>
-<h3> <%= post.title %> </h3>
+<% posts.forEach(post => { %>
+<h3> <%-post.title%> </h3>
 
-<p> <%= post.body.substring(0, 100) + ' ...' %>
-    <a href='/posts/<%= post.title %>'> Read more</a>
+<p> 
+   <%-post.content.substring(0, 100) + ' ...'%>  
+    <a href='/posts/<%=post._id%>'> Read more</a>
 </p>
 <% }) %>
 
