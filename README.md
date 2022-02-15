@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/-<EJS-CB6699?logo=ejs&logoColor=white&logoWidth=30">
 <img src="https://img.shields.io/badge/-Heroku-6762A6?logo=heroku&logoColor=white&logoWidth=30">
 <img src="https://img.shields.io/badge/-MongoDB-4FAA41?logo=mongodb&logoColor=white&logoWidth=30">
-<img src="https://img.shields.io/badge/-Lodash-5889c4?logo=lodash&logoColor=white&logoWidth=30"> <br>
+<!-- <img src="https://img.shields.io/badge/-Lodash-5889c4?logo=lodash&logoColor=white&logoWidth=30"> <br> -->
   <a href="https://daily-journal-site-4840.herokuapp.com/">App Here</a>
 </div>
  
@@ -17,7 +17,6 @@
 - A blog-like page that allows you to compose posts. 
 - Posts are displayed on the main page in a short format and each will have its own page generated after `Read More` is clicked.
 - Create multiple posts by using the `Compose` button and get access to it from the home page OR by typing `/posts/<NAME OF YOUR POST>`.
-- Text in the URL will be automatically transformed by **Lodash**, ex: words such `DAY1, day1, dAy 1` will be translated into `Day 1`.
 - All new posts are stored in **MongoDB**.
 - The app styled with **EJS** layout components and **CSS**, and deployed with **Heroku**.
                                                     
