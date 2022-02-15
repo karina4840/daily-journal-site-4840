@@ -27,16 +27,19 @@
     color: #1abc9c !important;
 }
 
+
 .btn-lg{
     color: white;
     background-color: #1abc9c;
+    margin-top: 15px;
     &:hover{
         color: grey;
-        background-color: skyblue;
+        background-color: #138b73;
     }
 }
 
 .compose-link {
+    text-decoration: none;
     color: white;
 
     &:hover {
