@@ -69,21 +69,22 @@ app.post('/compose', function (req, res) {
 });
 
 app.get("/posts/:postId", (req, res) => {
-
+  
   Post.findOne(
     {_id: req.params.postId}, (err, post) => {
     res.render("post", {
       title: post.title,
       content: post.content
     })
-    console.log(req.params.postId);
   });
 });
 
-app.post('/delete/:id', async (req, res) => {
-  await Post.deleteOne({_id: req.params.id})
-  return res.redirect('/')
-});
+// app.post('/posts/:id/delete', (req, res) => {
+  
+//   Post.deleteOne(
+//     {_id: req.params.id})
+//    res.redirect('/')
+// });
 
 
 app.listen(process.env.PORT || 3000, function () {
