@@ -13,7 +13,7 @@ const homeContent = "Dreams are mysterious things. Whether they're good or bad, 
 const contactContent = "Having journaling ideas that you can use to write in your daily journal is important. Everyone gets writer's block from time to time, so having a list of ideas can help you to jump start your creativity.";
 
 const app = express();
-
+require('dotenv').config()
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({
@@ -21,11 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB?retryWrites=true&w=majority");
-
-// mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB  original
-// mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB?retryWrites=true&w=majority
-
+mongoose.connect(process.env.MONGODB_URI);
 
 const postSchema = {
   title: String,
