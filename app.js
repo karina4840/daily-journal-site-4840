@@ -21,7 +21,11 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB");
+mongoose.connect("mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB?retryWrites=true&w=majority");
+
+// mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB  original
+// mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB?retryWrites=true&w=majority
+
 
 const postSchema = {
   title: String,
