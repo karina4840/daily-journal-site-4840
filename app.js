@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_CONNECT_URI);
+mongoose.connect("mongodb+srv://admin-karina:112545@cluster0.gbw5o.mongodb.net/journalDB?retryWrites=true&w=majority");
 
 const postSchema = {
   title: String,
