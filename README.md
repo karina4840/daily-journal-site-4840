@@ -7,18 +7,32 @@
 <img src="https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&logoWidth=30">
 <img src="https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&logoWidth=30">
 <img src="https://img.shields.io/badge/-<EJS-CB6699?logo=ejs&logoColor=white&logoWidth=30">
-<img src="https://img.shields.io/badge/-Heroku-6762A6?logo=heroku&logoColor=white&logoWidth=30">
 <img src="https://img.shields.io/badge/-MongoDB-4FAA41?logo=mongodb&logoColor=white&logoWidth=30">
- <br>
-  <a href="https://daily-journal-site-4840.herokuapp.com/">App Here</a>
 </div>
  
+#### Example:  
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000`  
+
+
 ### Description
 - A blog-like page that allows you to compose posts. 
 - Posts are displayed on the main page in a short format and each will have its own page generated after `Read More` is clicked.
 - Create multiple posts by using the `Compose` button and get access to it by clicking on 'Read More'.
 - All new posts are stored in **MongoDB**.
-- The app styled with **EJS** layout components and **CSS**, and deployed with **Heroku**.
+- The app styled with **EJS** layout components and **CSS**.
                                                     
 ### Screenshots
 **Starting page <br>
@@ -34,6 +48,6 @@ Example of a new composed page** <br>
 ***
 
 <div align="center">
-    2022 | <a href="https://github.com/karina4840"> karina4840 </a>
+    2023 | <a href="https://github.com/karina4840"> karina4840 </a>
 </div>
 

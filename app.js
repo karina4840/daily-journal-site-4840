@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_CONNECT_URI);
 
 const postSchema = {
   title: String,
